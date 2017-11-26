@@ -4,7 +4,7 @@
    Plugin URI: https://github.com/rosexw/awesome-plugin
    Description: a plugin to create awesomeness and spread joy
    Version: 1.0
-   Author: Mr. Awesome
+   By: Me!
    Author URI: https://rosexw.github.io/
    */
 
