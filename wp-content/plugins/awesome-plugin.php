@@ -4,7 +4,7 @@
    Plugin URI: https://github.com/rosexw/awesome-plugin
    Description: a plugin to create awesomeness and spread joy
    Version: 1.0
-   By: Me!
+   By: ME
    Author URI: https://rosexw.github.io/
    */
 
@@ -18,28 +18,31 @@
     * @return integer $new_views The number of views the post has
     *
     */
-  // function awepop_add_view() {
-  //    if(is_single()) {
-  //       global $post;
-  //       $current_views = get_post_meta($post->ID, "awepop_views", true);
-  //       if(!isset($current_views) OR empty($current_views) OR !is_numeric($current_views) ) {
-  //          $current_views = 0;
-  //       }
-  //       $new_views = $current_views + 1;
-  //       update_post_meta($post->ID, "awepop_views", $new_views);
-  //       return $new_views;
-  //    }
-  // }
-
-  // add_action('init','hello_world');
-  // function hello_world()
-  //   {
-  //     echo "Hello World";
-  //   }
 
     add_action( 'the_content', 'my_thank_you_text' );
 
     function my_thank_you_text ( $content ) {
-      return $content .= '<b><i><p>Thank you for reading!</p></i></b>';
+      return $content .= '<p>Thank you for reading!</p>';
     }
+
+
+    // login page logo
+    function custom_login_logo() {
+    	echo '<style>h1 a, h1 a:hover, h1 a:focus { font-size: 1.4em; font-weight: normal; text-align: center; text-indent: 0; line-height: 1.1em; text-decoration: none; color: #dadada; text-shadow: 0 -1px 1px #666, 0 1px 1px #fff; background-image: none !important; }</style>';
+    }
+    add_action('login_head', 'custom_login_logo');
+
+
+    // remove administration page header logo
+    function remove_admin_logo() {
+    	echo '<style>img#header-logo { display: none; }</style>';
+    }
+    add_action('admin_head', 'remove_admin_logo');
+
+
+    // change administration panel footer
+    function change_footer_admin() {
+    	echo 'For support, please call 123456 or email <a href="mailto:support@mysite.net">mailto:support@mysite.net</a>';
+    }
+    add_filter('admin_footer_text', 'change_footer_admin');
 ?>
