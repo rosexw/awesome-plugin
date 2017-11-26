@@ -1,0 +1,84 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Links\n"
+"POT-Creation-Date: 2015-10-26 22:37-0500\n"
+"PO-Revision-Date: 2015-10-26 22:37-0500\n"
+"Last-Translator: \n"
+"Language-Team: Zanya Wilkinson\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../social-links-um.php:179
+msgid "Social Media Menu"
+msgstr ""
+
+#: ../social-links-um.php:316
+msgid "Facebook"
+msgstr ""
+
+#: ../social-links-um.php:321
+msgid "Twitter"
+msgstr ""
+
+#: ../social-links-um.php:326
+msgid "Instagram"
+msgstr ""
+
+#: ../social-links-um.php:331
+msgid "LinkedIn"
+msgstr ""
+
+#: ../social-links-um.php:336
+msgid "Xing"
+msgstr ""
+
+#: ../social-links-um.php:341
+msgid "Renren"
+msgstr ""
+
+#: ../social-links-um.php:346
+msgid "Google+"
+msgstr ""
+
+#: ../social-links-um.php:351
+msgid "Disqus"
+msgstr ""
+
+#: ../social-links-um.php:356
+msgid "SnapChat"
+msgstr ""
+
+#: ../social-links-um.php:361
+msgid "Whatsapp"
+msgstr ""
+
+#: ../social-links-um.php:366
+msgid "Tumblr"
+msgstr ""
+
+#: ../social-links-um.php:371
+msgid "Pinterest"
+msgstr ""
+
+#: ../social-links-um.php:376
+msgid "Youtube"
+msgstr ""
+
+#: ../social-links-um.php:381
+msgid "VK"
+msgstr ""
+
+#: ../social-links-um.php:386
+msgid "Vine"
+msgstr ""
+
+#: ../social-links-um.php:391
+msgid "Submit"
+msgstr ""
