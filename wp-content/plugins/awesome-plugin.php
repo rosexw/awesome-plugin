@@ -32,7 +32,6 @@
    function test_init(){
            test_handle_post();
    ?>
-           <h1>Hello World!</h1>
            <h2>Upload a File</h2>
            <!-- Form to handle the upload - The enctype value here is very important -->
            <form  method="post" enctype="multipart/form-data">
@@ -60,5 +59,10 @@
            }
    }
 
+   add_shortcode("pdf", "test_process_shortcode");
+
+    function test_process_shortcode(){
+            return "<span style='color:blue;'>Hello world!</span>";
+    }
+
    ?>
-?>
