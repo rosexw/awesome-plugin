@@ -31,11 +31,11 @@
   //    }
   // }
 
-  add_action('init','hello_world');
-  function hello_world()
-    {
-      echo "Hello World";
-    }
+  // add_action('init','hello_world');
+  // function hello_world()
+  //   {
+  //     echo "Hello World";
+  //   }
 
     add_action( 'the_content', 'my_thank_you_text' );
 
