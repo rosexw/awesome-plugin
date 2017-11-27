@@ -21,6 +21,7 @@
 		<div id="footer-top">
 			<div class="footer-inside">
 				<?php cryout_master_footer_hook(); ?>
+				test
 			</div><!-- #footer-inside -->
 		</div><!--#footer-top-->
 		<div id="footer-bottom">

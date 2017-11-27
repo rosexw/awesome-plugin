@@ -17,10 +17,10 @@
 
     //https://www.sitepoint.com/wordpress-easy-administration-plugin-1/
     // change administration panel footer
-    // function change_footer_admin() {
-    // 	echo 'For support, please call 123456 or email <a href="mailto:support@mysite.net">mailto:support@mysite.net</a>';
-    // }
-    // add_filter('admin_footer_text', 'change_footer_admin');
+    function change_footer_admin() {
+    	echo 'For support, please call 123456 or email <a href="mailto:support@mysite.net">mailto:support@mysite.net</a>';
+    }
+    add_filter('admin_footer_text', 'change_footer_admin');
 
     //https://blog.idrsolutions.com/2014/06/wordpress-plugin-part-1/
     add_action('admin_menu', 'test_plugin_setup_menu');
